@@ -70,6 +70,7 @@
     max-width: 900px;
     margin: 0 auto;
     padding: 0 50px;
+    display: table;
 }
 
 .section-header {
@@ -89,5 +90,108 @@
 }
 
 .footer-container {
-    background-color: #130808;
+    background-color: rgb(57, 209, 214);
+    padding: 12px;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    text-align: end;
+
+}
+
+.footer-container li {
+    display: inline;
+    
+}
+
+.footer-container li{
+    margin-left: 10px;
+}
+
+.footer-container li:hover {
+    background-color: slategray;
+    
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.btn-merchandise {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    background-color: rgb(250, 255, 255, .1);
+    border-radius: 15%;
+    border: 2px solid #2d9cdb;
+    font-size: 1em;
+    font-weight: bolder;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-merchandise:hover {
+    background-color: rgb(250, 255, 255, .5);
+}
+
+.event-section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 50px;
+    text-align: center;
+}
+.match-row{
+    border-bottom: 1px solid black;
+    margin: 1em;
+    padding: 1em;
+}
+
+.match-row:last-child{
+    border-bottom: none;
+}
+
+.match-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.match-date{
+    font-weight: bold;
+    color: #555;
+    width: 23%;
+}
+
+.match-type{
+    width: 24%;
+}
+
+.match-score{
+    width: 18%;
+}
+
+.match-againts{
+    width: 15%;
+}
+
+.match-btn{
+    max-width: 29%;
+}
+
+.btn-match{
+    color: white;
+    background-color: #2d9cdb;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.btn-match:hover{
+    background-color: rgb(15, 15, 155);
 }
