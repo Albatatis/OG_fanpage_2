@@ -195,3 +195,40 @@
 .btn-match:hover{
     background-color: rgb(15, 15, 155);
 }
+
+.player-role {
+    display: block;
+    color: #333;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.player-section {
+    background-color: grey;
+}
+
+.player-details {
+    padding: 5px;    
+}
+
+.player-name {
+    color: #333;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+.player-div {
+    margin: 2em;
+}
+
+.player-image {
+    height: 250px;
+}
+
+.players-alignment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
